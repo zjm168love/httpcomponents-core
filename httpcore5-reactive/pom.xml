@@ -42,7 +42,6 @@
       <groupId>org.apache.httpcomponents.core5</groupId>
       <artifactId>httpcore5</artifactId>
       <version>${project.version}</version>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.reactivestreams</groupId>
@@ -78,7 +77,6 @@
               <resources>
                 <resource>
                   <directory>src/test/java/org/apache/hc/core5/reactive/examples</directory>
-                  <filtering>false</filtering>
                 </resource>
               </resources>
             </configuration>
