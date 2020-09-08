@@ -21,10 +21,10 @@ Change Log
 * HTTPCORE-646: ChunkedInputStream avoids creating unnecessary buffers.
   Contributed by Carter Kozak <ckozak at ckozak.net>
 
-* Revert "Improved handling of early response messages by the classic client protocol handler"
+* Revert "Improved handling of early response messages by the classic client protocol handler".
   Contributed by Oleg Kalnichevski <olegk at apache.org>
 
-* HTTPCORE-638: SharedOutputBuffer must trigger DataStreamChannel#endStream() once (#204)
+* HTTPCORE-638: SharedOutputBuffer must trigger DataStreamChannel#endStream() once (#204).
   Contributed by malaysf <malayshah at gmail.com>
 
 * Fixed integer overflow in IOWorkers selector (#203).
@@ -40,7 +40,7 @@ Change Log
 * HTTPCORE-636: Logging statements use slf4j interpolation over concatenation (#199).
   Contributed by Carter Kozak <ckozak at ckozak.net>
 
-* HTTPCLIENT-2091: use finite (3 minutes) socket timeout by default.
+* HTTPCLIENT-2091: Use finite (3 minutes) socket timeout by default.
   Contributed by Oleg Kalnichevski <olegk at apache.org>
 
 
