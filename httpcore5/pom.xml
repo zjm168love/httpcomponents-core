@@ -37,6 +37,10 @@
   <url>https://hc.apache.org/httpcomponents-core-5.1.x/</url>
   <packaging>jar</packaging>
 
+  <properties>
+    <Automatic-Module-Name>org.apache.httpcomponents.core5.httpcore5</Automatic-Module-Name>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
